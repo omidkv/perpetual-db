@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="caching" />
+        <module name="enrichment" />
+        <module name="ingestion" />
+        <module name="acquisition" />
+        <module name="statistics" />
+        <module name="language" />
+        <module name="storage" />
+        <module name="common" />
+        <module name="schema" />
+        <module name="query" />
+        <module name="workload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acquisition" target="1.5" />
+      <module name="caching" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="enrichment" target="1.5" />
+      <module name="ingestion" target="1.5" />
+      <module name="language" target="1.8" />
+      <module name="perpetual-db" target="1.5" />
+      <module name="query" target="1.5" />
+      <module name="schema" target="1.5" />
+      <module name="statistics" target="1.5" />
+      <module name="storage" target="1.5" />
+      <module name="workload" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
